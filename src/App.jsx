@@ -23,6 +23,17 @@ const App = () => {
         </details>
 
         <details>
+          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৫</summary>
+          <div className="px-4 pb-4">
+            <p>রাজধানী</p>
+            <Clause>
+              <p>(১) প্রজাতন্ত্রের রাজধানী ঢাকা।</p>
+              <p>(২) রাজধানীর সীমানা আইনের দ্বারা নির্ধারিত হবে।</p>
+            </Clause>
+          </div>
+        </details>
+
+        <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ২৭</summary>
           <div className="px-4 pb-4">
             <p>আইনের দৃষ্টিতে সমতা: সকল নাগরিক আইনের দৃষ্টিতে সমান এবং আইনের সমান আশ্রয়লাভের অধিকারী।</p>
