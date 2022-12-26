@@ -34,6 +34,17 @@ const App = () => {
         </details>
 
         <details>
+          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৮</summary>
+          <div className="px-4 pb-4">
+            <p>মূলনীতিসমূহ</p>
+            <Clause>
+              <p>(১) জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতা; এই নীতিগুলো এবং এর থেকে উৎপন্ন এই ভাগে অন্য সকল নীতি হবে রাষ্ট্র পরিচালনার মূলনীতি।</p>
+              <p>(২) এই নীতিগুলো আইন প্রণয়নকালে রাষ্ট্র প্রয়োগ করবে তবে এই নীতিগুলো আদালতের মাধ্যমে বলবৎযোগ্য হবে না।</p>
+            </Clause>
+          </div>
+        </details>
+
+        <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১২</summary>
           <div className="px-4 pb-4">
             <p>ধর্ম নিরপেক্ষতা ও ধর্মীয় স্বাধীনতা</p>
