@@ -1,4 +1,6 @@
 import React from 'react';
+import Chapter1 from './Chapters/Chapter1';
+import Chapter2 from './Chapters/Chapter2';
 import Banner from './components/Banner';
 import Clause from './components/Clause';
 import SubClause from './components/SubClause';
@@ -8,68 +10,8 @@ const App = () => {
     <>
       <Banner></Banner>
       <div className='w-11/12 lg:w-3/5 mx-auto'>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১</summary>
-          <div className="px-4 pb-4">
-            <p>বাংলাদেশ একটি একক, স্বাধীন ও সার্বভৌম প্রজাতন্ত্র, যা ‘গণপ্রজাতন্ত্রী বাংলাদেশ’ নামে পরিচিত হবে।</p>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৩</summary>
-          <div className="px-4 pb-4">
-            <p>প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা।</p>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৫</summary>
-          <div className="px-4 pb-4">
-            <p>রাজধানী</p>
-            <Clause>
-              <p>(১) প্রজাতন্ত্রের রাজধানী ঢাকা।</p>
-              <p>(২) রাজধানীর সীমানা আইনের দ্বারা নির্ধারিত হবে।</p>
-            </Clause>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৮</summary>
-          <div className="px-4 pb-4">
-            <p>মূলনীতিসমূহ</p>
-            <Clause>
-              <p>(১) জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতা; এই নীতিগুলো এবং এর থেকে উৎপন্ন এই ভাগে অন্য সকল নীতি হবে রাষ্ট্র পরিচালনার মূলনীতি।</p>
-              <p>(২) এই নীতিগুলো আইন প্রণয়নকালে রাষ্ট্র প্রয়োগ করবে তবে এই নীতিগুলো আদালতের মাধ্যমে বলবৎযোগ্য হবে না।</p>
-            </Clause>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৯</summary>
-          <div className="px-4 pb-4">
-            <p>জাতীয়তাবাদ: বাঙালি জাতির ঐক্য ও সংহতি হবে বাঙালি জাতীয়তাবাদের ভিত্তি।</p>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১০</summary>
-          <div className="px-4 pb-4">
-            <p>সমাজতন্ত্র ও শোষণমুক্তি</p>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১১</summary>
-          <div className="px-4 pb-4">
-            <p>গণতন্ত্র ও মানবাধিকার</p>
-          </div>
-        </details>
-        <details>
-          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১২</summary>
-          <div className="px-4 pb-4">
-            <p>ধর্ম নিরপেক্ষতা ও ধর্মীয় স্বাধীনতা</p>
-            <Clause>
-              <p>(ক) কোনো রকম সাম্প্রদায়িকতা থাকবে না।</p>
-              <p>(খ) রাষ্ট্র কোনো ধর্মকে রাজনৈতিক মর্যাদা দেবে না।</p>
-              <p>(গ) রাজনৈতিক উদ্দেশ্যে ধর্মীয় অপব্যবহার করা যাবে না।</p>
-              <p>(ঘ) ধর্মের কারণে কোনো ব্যক্তির প্রতি বৈষম্য বা নিপীড়ন করা যাবে না।</p>
-            </Clause>
-          </div>
-        </details>
+        <Chapter1></Chapter1>
+        <Chapter2></Chapter2>
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ২৭</summary>
           <div className="px-4 pb-4">
