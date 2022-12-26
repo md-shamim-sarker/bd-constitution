@@ -14,14 +14,12 @@ const App = () => {
             <p>বাংলাদেশ একটি একক, স্বাধীন ও সার্বভৌম প্রজাতন্ত্র, যা ‘গণপ্রজাতন্ত্রী বাংলাদেশ’ নামে পরিচিত হবে।</p>
           </div>
         </details>
-
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৩</summary>
           <div className="px-4 pb-4">
             <p>প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা।</p>
           </div>
         </details>
-
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৫</summary>
           <div className="px-4 pb-4">
@@ -32,7 +30,6 @@ const App = () => {
             </Clause>
           </div>
         </details>
-
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৮</summary>
           <div className="px-4 pb-4">
@@ -43,7 +40,24 @@ const App = () => {
             </Clause>
           </div>
         </details>
-
+        <details>
+          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৯</summary>
+          <div className="px-4 pb-4">
+            <p>জাতীয়তাবাদ: বাঙালি জাতির ঐক্য ও সংহতি হবে বাঙালি জাতীয়তাবাদের ভিত্তি।</p>
+          </div>
+        </details>
+        <details>
+          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১০</summary>
+          <div className="px-4 pb-4">
+            <p>সমাজতন্ত্র ও শোষণমুক্তি</p>
+          </div>
+        </details>
+        <details>
+          <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১১</summary>
+          <div className="px-4 pb-4">
+            <p>গণতন্ত্র ও মানবাধিকার</p>
+          </div>
+        </details>
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ১২</summary>
           <div className="px-4 pb-4">
@@ -56,7 +70,6 @@ const App = () => {
             </Clause>
           </div>
         </details>
-
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ২৭</summary>
           <div className="px-4 pb-4">
@@ -93,7 +106,6 @@ const App = () => {
             </Clause>
           </div>
         </details>
-
         <details>
           <summary className="py-2 outline-none cursor-pointer">অনুচ্ছেদ ৪১</summary>
           <div className="px-4 pb-4">
@@ -108,7 +120,6 @@ const App = () => {
             </Clause>
           </div>
         </details>
-
       </div>
     </>
   );
