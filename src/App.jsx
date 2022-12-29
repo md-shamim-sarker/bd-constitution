@@ -62,6 +62,7 @@ const App = () => {
             </Clause>
           </div>
         </details>
+        <p>https://drive.google.com/drive/folders/1DDFlMoVk98FM9v_b90i6OYeEtQtA5m16?usp=share_link</p>
       </div>
     </>
   );
